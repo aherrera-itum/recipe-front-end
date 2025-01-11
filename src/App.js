@@ -7,7 +7,7 @@ import RecipeDetail from './components/RecipeDetail'
 
 
 
-const API_URL = "http://localhost:5000/recipes"
+const API_URL = "https://recipe-back-end-hfjc.onrender.com/recipes"
 
 const App = () => {
   const [recipe, setRecipe] = useState([])
